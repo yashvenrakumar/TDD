@@ -1,8 +1,20 @@
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Incubyte TDD Assessment
 
-## Folder Structure
+![alt text](https://incubyteco.github.io/images/logo.png)
+![alt text](https://incubyteco.github.io/images/2021/09/laptop-plant.jpg)
+## What we’re looking for
+A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development. Someone who is passionate about software, knows her/his tools well and is able to use them effectively to create carefully crafted software. Ultimately, a person who has a strong sense of what it is they are doing and is self-motivated to learn and grow.
+
+TDD is a core practice for all of us at Incubyte. We strongly believe that well written software, is a lot more valuable for the business and end users, as compared to software that is hacked together (but works!).
+
+Through this assessment, we want to evaluate how readable and testable your code is. We want see the Software Craftsperson in you.
+
+As software developers searching the internet is something of a necessity and vital for our job. We encourage you to Google away! You can also visit our inspiration page to find some useful talks and references that will help you through this assessment.
+
+With that, let’s jump right in! Follow the instructions below, take your time to do it well and send us your kata once you’re happy with what you’ve done.
 
 The workspace contains two folders by default, where:
 
