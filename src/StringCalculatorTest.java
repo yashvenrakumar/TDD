@@ -76,18 +76,31 @@ public class StringCalculatorTest {
     }
 
     public static void main(String[] args) {
+
+        // Create a simple String calculator with a method signature:
         getZeroForEmptyString();
         sumOfOneInteger();
         sumOfTwoInteger();
         addNumbersWithNewLine();
-        supportDifferentDelimiter();
+
+        // Calling Add with a negative number will throw an exception "negatives not
+        // allowed" - and the negative that was passed.
         negativeNumberShouldThrowException();
         multipleNegativeNumberShouldThrowException();
-        getAddCalledCount();
+
+        // Numbers bigger than 1000 should be ignored, for example: 2 + 1001 == 2
         greaterThanThousandShouldIgnored();
+
+        // Support different delimiters
+        supportDifferentDelimiter();
         delimiterShouldBeAnyLength();
         allowingMultipleDelimiters();
         multipleDelimitersMoreThanOneChar();
+
+        // Using TDD, Add a method to StringCalculator
+        // called public int GetCalledCount()
+        // that returns how many times Add() was invoked.
+        getAddCalledCount();
 
     }
 }
