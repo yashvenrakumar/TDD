@@ -49,6 +49,7 @@ public class StringCalculatorTest {
         }
     }
 
+    // called public int GetCalledCount()
     public static void getAddCalledCount() {
         stringCalculator.add("//;\n1;3");
         // Assert.assertEquals(1, stringCalculator.getCalledCount());
@@ -57,19 +58,33 @@ public class StringCalculatorTest {
 
     public static void greaterThanThousandShouldIgnored() {
         // Assert.assertEquals(2, stringCalculator.add("2,1001"));
+
+        // 9. Numbers bigger than 1000 should be ignored, for example: 2 + 1001 == 2
         System.out.println("" + stringCalculator.add("2,1001"));
     }
+
+    // 10. Delimiters can be of any length with the following format:
+    // “//[delimiter]\n”
+    // for example:
+    // “//[***]\n1***2***3” == 6
 
     public static void delimiterShouldBeAnyLength() {
         // Assert.assertEquals(6, stringCalculator.add("//[***]\n1***2***3"));
         System.out.println("" + stringCalculator.add("//[***]\n1***2***3"));
     }
 
+    // 11. Allow multiple delimiters like this: “//[delim1][delim2]\n”
+    // for example
+    // “//[*][%]\n1*2%3” == 6.
+
     public static void allowingMultipleDelimiters() {
         // Assert.assertEquals(6, stringCalculator.add("//[*][%]\n1*2%3"));
         System.out.println("" + stringCalculator.add("//[*][%]\n1*2%3"));
     }
 
+    // 12. make sure you can also handle multiple delimiters with length longer than
+    // one char for example
+    // “//[**][%%]\n1**2%%3” == 6
     public static void multipleDelimitersMoreThanOneChar() {
         // Assert.assertEquals(6, stringCalculator.add("//[**][%%]\n1**2%%3"));
         System.out.println("" + stringCalculator.add("//[**][%%]\n1**2%%3"));
