@@ -16,6 +16,9 @@ As software developers searching the internet is something of a necessity and vi
 
 With that, let’s jump right in! Follow the instructions below, take your time to do it well and send us your kata once you’re happy with what you’ve done.
 
+## Mentor ( Ms Mansi Pandey )
+![alt text](https://lh3.googleusercontent.com/a-/AOh14GhWmf0ZUSWWwYMn1wr85eGWqCCT0Tj5AMDx3P0yOrs=s96-c)
+
 The workspace contains two folders by default, where:
 
 - `src`: the folder to maintain sources
